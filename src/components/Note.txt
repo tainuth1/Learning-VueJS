@@ -1,0 +1,1 @@
++ Best practice to render lists with v-for and have condition for each list is to filter new array with computed properties berfore render it.
