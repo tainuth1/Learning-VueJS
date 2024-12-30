@@ -4,6 +4,7 @@ import "./style.css";
 // import VBind from "./components/lessons/VBind.vue";
 // import CondotionalRendering from "./components/lessons/ConditionalRendering.vue";
 // import ListRendering from "./components/lessons/ListRendering.vue";
-import EventHandling from "./components/lessons/EventHandling.vue";
+// import EventHandling from "./components/lessons/EventHandling.vue";
+import FormInputBinding from "./components/lessons/FormInputBinding.vue";
 
-createApp(EventHandling).mount("#app");
+createApp(FormInputBinding).mount("#app");
