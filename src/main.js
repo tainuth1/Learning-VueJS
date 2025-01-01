@@ -5,6 +5,7 @@ import "./style.css";
 // import CondotionalRendering from "./components/lessons/ConditionalRendering.vue";
 // import ListRendering from "./components/lessons/ListRendering.vue";
 // import EventHandling from "./components/lessons/EventHandling.vue";
-import FormInputBinding from "./components/lessons/FormInputBinding.vue";
+// import FormInputBinding from "./components/lessons/FormInputBinding.vue";
+import Watcher from "./components/lessons/Watcher.vue";
 
-createApp(FormInputBinding).mount("#app");
+createApp(Watcher).mount("#app");
