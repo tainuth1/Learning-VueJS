@@ -7,6 +7,7 @@ import "./style.css";
 // import EventHandling from "./components/lessons/EventHandling.vue";
 // import FormInputBinding from "./components/lessons/FormInputBinding.vue";
 // import Watcher from "./components/lessons/Watcher.vue";
-import Watcher2 from "./components/lessons/Watcher2.vue";
+// import Watcher2 from "./components/lessons/Watcher2.vue";
+import Refs from "./components/lessons/Refs.vue";
 
-createApp(Watcher2).mount("#app");
+createApp(Refs).mount("#app");
