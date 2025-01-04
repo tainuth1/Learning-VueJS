@@ -8,6 +8,9 @@ import "./style.css";
 // import FormInputBinding from "./components/lessons/FormInputBinding.vue";
 // import Watcher from "./components/lessons/Watcher.vue";
 // import Watcher2 from "./components/lessons/Watcher2.vue";
-import Refs from "./components/lessons/Refs.vue";
+// import Refs from "./components/lessons/Refs.vue";
+// import CallingButtons from "./components/lessons/component-lessons/CallingButtons.vue";
+// import CallingList from "./components/lessons/component-lessons/CallingList.vue";
+import CallingSlotComponents from "./components/lessons/component-lessons/CallingSlotComponents.vue";
 
-createApp(Refs).mount("#app");
+createApp(CallingSlotComponents).mount("#app");
