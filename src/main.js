@@ -11,6 +11,7 @@ import "./style.css";
 // import Refs from "./components/lessons/Refs.vue";
 // import CallingButtons from "./components/lessons/component-lessons/CallingButtons.vue";
 // import CallingList from "./components/lessons/component-lessons/CallingList.vue";
-import CallingSlotComponents from "./components/lessons/component-lessons/CallingSlotComponents.vue";
+// import CallingSlotComponents from "./components/lessons/component-lessons/CallingSlotComponents.vue";
+import onMounted from "./components/lessons/Lifecycle-Hooks/onMounted.vue";
 
-createApp(CallingSlotComponents).mount("#app");
+createApp(onMounted).mount("#app");
