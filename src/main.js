@@ -12,6 +12,7 @@ import "./style.css";
 // import CallingButtons from "./components/lessons/component-lessons/CallingButtons.vue";
 // import CallingList from "./components/lessons/component-lessons/CallingList.vue";
 // import CallingSlotComponents from "./components/lessons/component-lessons/CallingSlotComponents.vue";
-import onMounted from "./components/lessons/Lifecycle-Hooks/onMounted.vue";
+// import onMounted from "./components/lessons/Lifecycle-Hooks/onMounted.vue";
+import ToDo from "./components/Practice-Projects/Simple-ToDo-List/ToDo.vue";
 
-createApp(onMounted).mount("#app");
+createApp(ToDo).mount("#app");
