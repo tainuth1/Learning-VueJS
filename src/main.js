@@ -13,6 +13,7 @@ import "./style.css";
 // import CallingList from "./components/lessons/component-lessons/CallingList.vue";
 // import CallingSlotComponents from "./components/lessons/component-lessons/CallingSlotComponents.vue";
 // import onMounted from "./components/lessons/Lifecycle-Hooks/onMounted.vue";
-import ToDo from "./components/Practice-Projects/Simple-ToDo-List/ToDo.vue";
+// import ToDo from "./components/Practice-Projects/Simple-ToDo-List/ToDo.vue";
+import Parent from "./components/lessons/component-lessons/props2/Parent.vue";
 
-createApp(ToDo).mount("#app");
+createApp(Parent).mount("#app");
