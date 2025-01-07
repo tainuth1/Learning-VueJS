@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.btn {
+  border-radius: 15px;
+  padding: 13px 25px;
+  color: white;
+}
+.btn:active {
+  transform: scale(0.95);
+}

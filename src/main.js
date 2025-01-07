@@ -14,6 +14,7 @@ import "./style.css";
 // import CallingSlotComponents from "./components/lessons/component-lessons/CallingSlotComponents.vue";
 // import onMounted from "./components/lessons/Lifecycle-Hooks/onMounted.vue";
 // import ToDo from "./components/Practice-Projects/Simple-ToDo-List/ToDo.vue";
-import Parent from "./components/lessons/component-lessons/props2/Parent.vue";
+// import Parent from "./components/lessons/component-lessons/props2/Parent.vue";
+import Parent from "./components/lessons/component-lessons/event/Parent.vue";
 
 createApp(Parent).mount("#app");
