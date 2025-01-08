@@ -10,9 +10,7 @@ const fetchUser = async (username) => {
   isLoading.value = true;
   try {
     const res = await fetch(`${API_URL}/${username}`, {
-      headers: {
-        Authorization: "token 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",
-      },
+      
     });
     if (!res.ok) {
       throw new Error("Failed to fetch data from API");
